@@ -1,0 +1,28 @@
+{% load staticfiles %}
+{% block meta_block %} {% endblock %}
+{% block style_block %} 
+<style type="text/css">
+        body {
+                background-image: url('{% static "paytm_bg.jpg"%}');
+                background-size: 1360px 570px;
+                background-repeat: no-repeat;
+                background-position: top;
+                background-attachment: fixed;
+            }
+    </style>
+{% endblock %}
+{% block body_block %}
+
+    <section id="features" class="container services">
+        <div class = "row">
+            <div class = "col-md-12 center_align"><br>
+                 <h1> Welcome To Paytm Backed System</h1>
+            </div>
+            <div class="col-md-6">
+                <button onclick="window.location.href='/admin'">Login</button>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block script_block %}
+{% endblock %}
