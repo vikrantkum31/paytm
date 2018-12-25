@@ -27,6 +27,7 @@ Sample Database setup and running
 
 3.Restore paytm_sample_db.sql
 >>> use paytm;
+
 >>> source <path-for-db-file>/paytm_sample_db.sql
 
 Django setup and running
@@ -55,7 +56,22 @@ python manage.py runserver
 
 4.Open http://127.0.0.1:8000 in browser
 
-5.For user activity api open below link in broser
+5. Sample Login Details
+
+
+   username : paytm123
+   
+   
+   password : paytm123456
+   
+   username : paytm456
+   
+   
+   password : paytm123456
+
+6.For user activity api open below link in broser
+
+
 http://127.0.0.1:8000/user_activity?start_date=2018-12-25&end_date=2018-12-26&user_id=1
 
 
